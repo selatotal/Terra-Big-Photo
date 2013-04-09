@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Terra Big Photo",
+  "version": "0.1",
+  "description": "Shows the original photo of a Terra Portal Photo Gallery",
+  "background" : {
+    "scripts" : [ "background.js" ]
+  },
+  "content_scripts" : [
+    {
+      "matches" : [
+        "http://*.terra.com.br/*",
+        "https://*.terra.com.br/*"
+      ],
+      "js" : [ "content_script.js" ],
+      "run_at" : "document_idle",
+      "all_frames" : false
+    }
+  ],
+  "page_action" : {
+    "default_icon" : "favicon.ico",
+    "default_title" : "Terra Big Photo"
+  },
+  "permissions" : [
+      "tabs", 
+      "http://*.terra.com.br/*",
+      "https://*.terra.com.br/*"
+  ]
+}
