@@ -21,6 +21,11 @@
     "default_icon" : "favicon.ico",
     "default_title" : "Terra Big Photo"
   },
+  "icons" : {
+    "16" : "logo_16.png",
+    "48" : "logo_48.png",
+    "128" : "logo_128.png"
+  },
   "permissions" : [
       "tabs", 
       "http://*.terra.com.br/*",

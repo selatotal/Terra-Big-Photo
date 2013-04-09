@@ -18,11 +18,11 @@ function checkForValidUrl() {
 	var temFoto = document.getElementsByClassName('big-photo')[0];
 	//if (tipoConteudo == "article"){
 	if (temFoto){
-		console.log( '[Terra Big Photo] Achou Artigo');
+		console.log( '[Terra Big Photo] Achou Foto');
 		//window.open('http://images' + $('.big-photo img').attr('src').split('/images')[1]);
 		return true;
 	} else {
-		console.log('[Terra Big Photo] Nao eh article : ' + tipoConteudo);
+		console.log('[Terra Big Photo] Nao tem Foto : ' + tipoConteudo);
 	}
 	return false;
 };
