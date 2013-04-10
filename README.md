@@ -8,6 +8,9 @@ Irá abrir uma aba com a foto em um tamanho maior.
 
 Changelog:
 
+=Versão 0.4=
+- Correção para evitar erro na URL quando possui img ou images no nome do arquivo da imagem
+
 =Versão 0.3=
 - Ampliação da extensão para contemplar todos os domínios do Terra
 

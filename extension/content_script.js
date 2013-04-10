@@ -25,10 +25,10 @@ function checkForValidUrl() {
 
 function getNewImageURL(){
 	var URL = document.getElementsByClassName('big-photo')[0].childNodes[0].src;
-	if (URL.match(/img/g)){
-		return 'http://p2.trrsf.com.br/image/fget/cf/img' + document.getElementsByClassName('big-photo')[0].childNodes[0].src.split('/img')[1];
+	if (URL.match(/img\.terra/g)){
+		return 'http://p2.trrsf.com.br/image/fget/cf/img.terra' + document.getElementsByClassName('big-photo')[0].childNodes[0].src.split('/img.terra')[1];
 	} else {
-		return 'http://p2.trrsf.com.br/image/fget/cf/images' + document.getElementsByClassName('big-photo')[0].childNodes[0].src.split('/images')[1];
+		return 'http://p2.trrsf.com.br/image/fget/cf/images.terra' + document.getElementsByClassName('big-photo')[0].childNodes[0].src.split('/images.terra')[1];
 	}
 }
 
