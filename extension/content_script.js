@@ -27,6 +27,15 @@ function checkForValidUrl() {
 	return false;
 };
 
+function getNewImageURL(){
+	var URL = document.getElementsByClassName('big-photo')[0].childNodes[0].src;
+	if (URL.match(/img/g)){
+		return 'http://p2.trrsf.com.br/image/fget/cf/img' + document.getElementsByClassName('big-photo')[0].childNodes[0].src.split('/img')[1];
+	} else {
+		return 'http://p2.trrsf.com.br/image/fget/cf/images' + document.getElementsByClassName('big-photo')[0].childNodes[0].src.split('/images')[1];
+	}
+}
+
 if (checkForValidUrl()) {
 	chrome.extension.sendRequest({}, function(response) {});
 }

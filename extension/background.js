@@ -11,7 +11,6 @@ function onRequest(request, sender, sendResponse) {
 chrome.extension.onRequest.addListener(onRequest);
 
 chrome.pageAction.onClicked.addListener(function(tab) {
-	// windowObjectReference = window.open("http://google.com/", "DescriptiveWindowName", "resizable=yes,scrollbars=yes,status=yes");  
 	chrome.tabs.executeScript(null,  
-		{ code: "window.open('http://p2.trrsf.com.br/image/fget/cf/images' + document.getElementsByClassName('big-photo')[0].childNodes[0].src.split('/images')[1])" } );
+		{ code: "window.open(getNewImageURL())" } );
 });

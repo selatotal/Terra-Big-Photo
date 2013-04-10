@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Terra Big Photo",
-  "version": "0.1",
-  "description": "Shows the original photo of a Terra Portal Photo Gallery",
+  "version": "0.2",
+  "description": "Acesse as fotos das galerias do Portal Terra em um tamanho maior.",
   "background" : {
     "scripts" : [ "background.js" ]
   },
