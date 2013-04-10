@@ -13,13 +13,9 @@ function getOGTypeValue() {
 
 
 function checkForValidUrl() {
-	// ... show the page action.
-	//var tipoConteudo = getOGTypeValue();
 	var temFoto = document.getElementsByClassName('big-photo')[0];
-	//if (tipoConteudo == "article"){
 	if (temFoto){
 		console.log( '[Terra Big Photo] Achou Foto');
-		//window.open('http://images' + $('.big-photo img').attr('src').split('/images')[1]);
 		return true;
 	} else {
 		console.log('[Terra Big Photo] Nao tem Foto : ' + tipoConteudo);

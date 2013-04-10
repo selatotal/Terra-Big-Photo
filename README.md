@@ -8,5 +8,8 @@ Irá abrir uma aba com a foto em um tamanho maior.
 
 Changelog:
 
+=Versão 0.3=
+- Ampliação da extensão para contemplar todos os domínios do Terra
+
 =Versão 0.2=
 - Correção para imagens que possuem img.terra.com.br na URL

@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Terra Big Photo",
-  "version": "0.2",
+  "version": "0.3",
   "description": "Acesse as fotos das galerias do Portal Terra em um tamanho maior.",
   "background" : {
     "scripts" : [ "background.js" ]
@@ -10,7 +10,21 @@
     {
       "matches" : [
         "http://*.terra.com.br/*",
-        "https://*.terra.com.br/*"
+        "https://*.terra.com.br/*",
+        "http://*.terra.com.ar/*",
+        "https://*.terra.com.ar/*",
+        "http://*.terra.cl/*",
+        "https://*.terra.cl/*",
+        "http://*.terra.com.co/*",
+        "https://*.terra.com.co/*",
+        "http://*.terra.es/*",
+        "https://*.terra.es/*",
+        "http://*.terra.com/*",
+        "https://*.terra.com/*",
+        "http://*.terra.com.mx/*",
+        "https://*.terra.com.mx/*",
+        "http://*.terra.com.pe/*",
+        "https://*.terra.com.pe/*"
       ],
       "js" : [ "content_script.js" ],
       "run_at" : "document_idle",
@@ -29,6 +43,20 @@
   "permissions" : [
       "tabs", 
       "http://*.terra.com.br/*",
-      "https://*.terra.com.br/*"
+      "https://*.terra.com.br/*",
+        "http://*.terra.com.ar/*",
+        "https://*.terra.com.ar/*",
+        "http://*.terra.cl/*",
+        "https://*.terra.cl/*",
+        "http://*.terra.com.co/*",
+        "https://*.terra.com.co/*",
+        "http://*.terra.es/*",
+        "https://*.terra.es/*",
+        "http://*.terra.com/*",
+        "https://*.terra.com/*",
+        "http://*.terra.com.mx/*",
+        "https://*.terra.com.mx/*",
+        "http://*.terra.com.pe/*",
+        "https://*.terra.com.pe/*"
   ]
 }
