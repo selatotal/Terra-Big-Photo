@@ -18,7 +18,7 @@ function checkForValidUrl() {
 		console.log( '[Terra Big Photo] Achou Foto');
 		return true;
 	} else {
-		console.log('[Terra Big Photo] Nao tem Foto : ' + tipoConteudo);
+		console.log('[Terra Big Photo] Nao tem Foto');
 	}
 	return false;
 };
