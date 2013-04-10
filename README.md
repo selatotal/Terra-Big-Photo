@@ -7,5 +7,6 @@ Ao acessar uma galeria de fotos, escolha a foto que deseja ampliar na galeria e 
 Irá abrir uma aba com a foto em um tamanho maior.
 
 Changelog:
+
 =Versão 0.2=
 - Correção para imagens que possuem img.terra.com.br na URL
