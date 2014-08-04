@@ -24,11 +24,11 @@ function checkForValidUrl() {
 };
 
 function getNewImageURL(){
-	var URL = document.getElementsByClassName('big-photo')[0].childNodes[0].src;
+	var URL = document.getElementsByClassName('big-photo')[0].childNodes[5].src;
 	if (URL.match(/img\.terra/g)){
-		return 'http://p2.trrsf.com.br/image/fget/cf/img.terra' + document.getElementsByClassName('big-photo')[0].childNodes[0].src.split('/img.terra')[1];
+		return 'http://p1.trrsf.com.br/image/fget/cf/img.terra' + document.getElementsByClassName('big-photo')[0].childNodes[5].src.split('/img.terra')[1];
 	} else {
-		return 'http://p2.trrsf.com.br/image/fget/cf/images.terra' + document.getElementsByClassName('big-photo')[0].childNodes[0].src.split('/images.terra')[1];
+		return 'http://p1.trrsf.com.br/image/fget/cf/images.terra' + document.getElementsByClassName('big-photo')[0].childNodes[5].src.split('/images.terra')[1];
 	}
 }
 
