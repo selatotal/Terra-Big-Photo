@@ -8,6 +8,9 @@ Irá abrir uma aba com a foto em um tamanho maior.
 
 Changelog:
 
+=Versão 0.6=
+- Funcionamento com o novo layout da página de conteúdo do Portal Terra
+
 =Versão 0.5=
 - Remocao da variavel tipoConteudo, que estava causando excecao em páginas sem fotos.
 
